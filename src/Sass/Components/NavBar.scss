@@ -1,0 +1,35 @@
+.nav-bar {
+  @include standard-padding;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+  height: 100px;
+  background: $solidBlack;
+}
+
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar-item-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.nav-bar-item {
+  margin: 0 1px;
+  padding: 0.75rem 1rem;
+  a {
+    text-decoration: none;
+    color: $primaryFontColor;
+    border-bottom: 1px solid $primaryBrandColor;
+  }
+}

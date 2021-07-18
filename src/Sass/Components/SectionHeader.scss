@@ -1,0 +1,20 @@
+.section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $primaryFontColor;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  white-space: nowrap;
+  .horizontal-rule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    hr {
+      width: 80%;
+      border-color: $secondaryFontColor;
+    }
+  }
+}

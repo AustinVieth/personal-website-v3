@@ -1,0 +1,44 @@
+.hero {
+  @include standard-padding;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 100px);
+  .name-and-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .name {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  .title {
+    color: $secondaryFontColor;
+    font-size: 3.5rem;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+  }
+
+  .hero-info {
+    color: $secondaryFontColor;
+    font-size: 1.75rem;
+    text-align: left;
+  }
+
+  .highlight {
+    color: $primaryFontColor;
+    font-weight: bold;
+  }
+
+  .contact-me-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

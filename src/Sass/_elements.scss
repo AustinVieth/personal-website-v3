@@ -1,0 +1,44 @@
+body {
+  background-color: $backgroundColor;
+  font-family: $primaryFont;
+  color: $primaryFontColor;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.secondary-btn {
+  color: $primaryBrandColor;
+  border: 1px solid $primaryBrandColor;
+  font-size: 1rem;
+  background-color: none;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+li {
+  list-style: none;
+  margin: none;
+}
+
+ul {
+}
+
+a {
+  text-decoration: none;
+}
+
+//look at using simplescrollbar as an npm package to get better customization and possibly work on all browsers.
+//https://www.youtube.com/watch?v=74eaw_nM5tY
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(255, 187, 0, 0.3);
+  box-sizing: border-box;
+}

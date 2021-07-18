@@ -1,0 +1,40 @@
+.contact-me {
+  @include standard-padding;
+  padding-top: 200px;
+  padding-right: 350px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  min-height: 900px;
+
+  .contact-me-message {
+    box-sizing: border-box;
+    color: $secondaryFontColor;
+    padding: 50px 100px;
+    font-size: 1.5rem;
+  }
+
+  .information-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .information-list {
+    padding: 0;
+    text-align: left;
+  }
+
+  .information-item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    a {
+      margin-right: 20px;
+      font-size: 1.5rem;
+      color: $primaryBrandColor;
+    }
+    span {
+      color: $secondaryFontColor;
+    }
+  }
+}

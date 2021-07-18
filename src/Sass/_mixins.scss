@@ -1,0 +1,6 @@
+@mixin standard-padding {
+  padding: 0 100px;
+  width: 100vw;
+  max-width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,47 @@
+.project-card {
+  background: $cardColor;
+  border-radius: 10px;
+  height: 315px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 30px;
+  justify-content: space-around;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 20px;
+  //   box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.2);
+  .project-card-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $primaryFontColor;
+  }
+  .project-card-description {
+    font-size: 1rem;
+    font-weight: regular;
+    color: $secondaryFontColor;
+  }
+  .technology-item {
+    font-size: 0.75rem;
+    font-weight: regular;
+    color: $secondaryFontColor;
+    margin-right: 15px;
+  }
+
+  .git-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 1.5rem;
+    color: $primaryBrandColor;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .technologies {
+    display: flex;
+  }
+}

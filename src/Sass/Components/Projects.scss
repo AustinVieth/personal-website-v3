@@ -1,0 +1,14 @@
+.projects {
+  @include standard-padding;
+  min-height: 500px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  .header-container {
+    padding-right: 40%;
+  }
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+}
