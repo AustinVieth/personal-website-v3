@@ -34,10 +34,8 @@ let experienceItemsDefault = [
 ];
 
 const Work = (props) => {
-  let startingId = 0;
-  const [experienceItems, setExperienceItems] = useState(
-    experienceItemsDefault
-  );
+  //I'm never needing to set experience items so I don't include the set function
+  const [experienceItems] = useState(experienceItemsDefault);
   const [selected, setSelected] = useState(experienceItems[0]);
 
   const handleSelection = (e) => {

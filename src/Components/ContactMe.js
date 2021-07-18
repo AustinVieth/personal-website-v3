@@ -2,8 +2,6 @@ import React from "react";
 import SectionHeader from "./SectionHeader";
 
 const ContactMe = (props) => {
-  const renderInformation = () => {};
-
   return (
     <div className="contact-me" id="Contact">
       <SectionHeader label="Contact Me" centered />
