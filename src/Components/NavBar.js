@@ -16,7 +16,13 @@ const NavBar = (props) => {
     <div className="nav-bar">
       <div className="nav-bar-container">
         <ul className="nav-bar-item-list">{renderListItems()}</ul>
-        <a className="secondary-btn">Resume</a>
+        <a
+          className="secondary-btn"
+          href="Resume_v2_FullStack_Austin_Vieth.pdf"
+          download="Austin Vieth Resume"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );
