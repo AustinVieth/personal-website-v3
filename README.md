@@ -2,6 +2,11 @@
 
 I created this project to practice some basic react as well as put out an electronic resume. The plan for this site will be update the way information is passed to have a config file so anyone can use my site as a template.
 
+currently hosted on netlify at:
+https://www.austinvieth.com/
+
+## Scripts
+
 ### `npm start`
 
 Runs the app in the development mode.\

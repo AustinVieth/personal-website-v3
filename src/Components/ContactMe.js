@@ -19,7 +19,7 @@ const ContactMe = (props) => {
       <div className="information-container">
         <ul className="information-list">
           <li className="information-item">
-            <a href="mailto:ozwaldvieth@gmail.com">
+            <a href="mailto:ozwaldvieth@gmail.com" className="icon-link">
               <i class="far fa-envelope"></i>
             </a>
             <span>ozwaldvieth@gmail.com</span>
@@ -29,20 +29,34 @@ const ContactMe = (props) => {
               href="https://www.linkedin.com/in/austin-vieth-602759171/"
               target="_blank"
               rel="noreferrer"
+              className="icon-link"
             >
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <span>/austin-vieth-602759171/</span>
+            <a
+              href="https://www.linkedin.com/in/austin-vieth-602759171/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>/austin-vieth-602759171/</span>
+            </a>
           </li>
           <li className="information-item">
             <a
               href="https://github.com/AustinVieth"
               target="_blank"
               rel="noreferrer"
+              className="icon-link"
             >
               <i class="fab fa-github"></i>
             </a>
-            <span>/AustinVieth</span>
+            <a
+              href="https://github.com/AustinVieth"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>/AustinVieth</span>
+            </a>
           </li>
         </ul>
       </div>
