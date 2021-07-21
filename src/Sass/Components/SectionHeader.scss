@@ -18,3 +18,9 @@
     }
   }
 }
+
+@media screen and (max-width: $mobileWidth) {
+  .section-header {
+    font-size: 1.25rem;
+  }
+}

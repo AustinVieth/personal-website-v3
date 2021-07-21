@@ -91,3 +91,26 @@
     z-index: 0;
   }
 }
+
+@media screen and (max-width: $mobileWidth) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+
+    .sub-header {
+      font-size: 1.25rem;
+    }
+    .technology-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .self-portrait {
+      width: 250px;
+    }
+
+    .image-container {
+      margin-top: 50px;
+    }
+  }
+}

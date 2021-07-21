@@ -18,7 +18,7 @@ function App() {
       <Projects />
       <ContactMe />
       <footer>
-        <span>Designed and Build by Austin Vieth</span>
+        <span>Designed and Built by Austin Vieth</span>
         <span>
           Inpired by{" "}
           <a

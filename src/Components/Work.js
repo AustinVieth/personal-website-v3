@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import SectionHeader from "./SectionHeader";
 
 class ExperienceItem {
-  constructor(id, name, title, datesWorked, bulletPoints) {
+  constructor(id, name, title, datesWorked, bulletPoints, shortName = name) {
     this.id = id;
     this.name = name;
     this.title = title;
     this.datesWorked = datesWorked;
     this.bulletPoints = bulletPoints;
+    this.shortName = shortName;
   }
 }
 
@@ -22,18 +24,21 @@ let experienceItemsDefault = [
     "University Of Illinois, Springfield",
     "Student",
     "August 2020 - March 2022",
-    ["Received Bachelor's of Computer Science", "4.0 GPA"]
+    ["Received Bachelor's of Computer Science", "4.0 GPA"],
+    "Univ. Illinois, Springfield"
   ),
   new ExperienceItem(
     2,
     "California Polytechnic University, SLO",
     "Student",
     "September 2013 - March 2018",
-    ["Studied Biology", "Minor in Law."]
+    ["Studied Biology", "Minor in Law."],
+    "CalPoly, SLO"
   ),
 ];
 
 const Work = (props) => {
+  const isMobile = useMediaQuery({ query: "(max-width: 480px)" });
   //I'm never needing to set experience items so I don't include the set function
   const [experienceItems] = useState(experienceItemsDefault);
   const [selected, setSelected] = useState(experienceItems[0]);
@@ -53,7 +58,7 @@ const Work = (props) => {
             selected.id === item.id ? "selected" : ""
           }`}
         >
-          {item.name}
+          {isMobile ? item.shortName : item.name}
         </li>
       );
     });
@@ -90,7 +95,7 @@ const Work = (props) => {
       <SectionHeader label="Work && Education" />
       <div className="work-container">
         <div className="work-selector">
-          <ul>{renderExperienceList()}</ul>
+          <ul className="work-selector-list">{renderExperienceList()}</ul>
         </div>
 
         {renderExperienceInformation()}
