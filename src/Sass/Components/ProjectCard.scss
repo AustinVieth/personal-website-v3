@@ -45,3 +45,12 @@
     display: flex;
   }
 }
+
+@media screen and (max-width: $mobileWidth) {
+  .project-card {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}

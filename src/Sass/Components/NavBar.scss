@@ -34,6 +34,52 @@
   }
 }
 
-.menu-icon {
-  font-size: 2rem;
+@media screen and (max-width: $mobileWidth) {
+  .nav-bar {
+    background-color: $solidBlack;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    height: 80px;
+    .nav-bar-item-list {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      height: 70%;
+      padding-top: 40%;
+    }
+
+    .menu-icon {
+      z-index: 3;
+      font-size: 2rem;
+      position: fixed;
+      margin-right: 40px;
+    }
+    .nav-bar-item {
+      padding: 30px 50px;
+    }
+
+    .close-btn-container {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      padding: 0 40px;
+      box-sizing: border-box;
+    }
+
+    .close-btn {
+      text-align: right;
+      font-size: 2rem;
+    }
+
+    .mobile-menu {
+      height: 100vh;
+      width: 70vw;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 2;
+    }
+  }
 }

@@ -62,7 +62,8 @@
 
 @media screen and (max-width: $mobileWidth) {
   .work {
-    margin-top: 40px;
+    padding-top: 120px;
+    margin-top: 0;
     .work-container {
       display: flex;
       flex-direction: column;

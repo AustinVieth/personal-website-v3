@@ -94,6 +94,9 @@
 
 @media screen and (max-width: $mobileWidth) {
   .about-me {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
 

@@ -4,6 +4,7 @@ const Hero = (props) => {
   return (
     <div
       className="hero"
+      id="Home"
       style={{
         background: ` rgba(0,0,0,.75) url(${
           process.env.PUBLIC_URL + "/TechSpace.jpg"
