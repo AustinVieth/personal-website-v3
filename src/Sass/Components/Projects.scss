@@ -12,6 +12,13 @@
     margin-top: 80px;
   }
 }
+@media screen and (max-width: $laptopWidth) {
+  .projects {
+    .header-container {
+      padding: 0;
+    }
+  }
+}
 
 @media screen and (max-width: $mobileWidth) {
   .projects {

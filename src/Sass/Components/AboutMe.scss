@@ -117,3 +117,11 @@
     }
   }
 }
+
+@media screen and (max-width: $laptopWidth) {
+  .about-me {
+    .technology-item {
+      font-size: 1.25rem;
+    }
+  }
+}

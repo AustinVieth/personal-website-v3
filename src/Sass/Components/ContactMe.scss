@@ -39,9 +39,23 @@
   }
 }
 
+//laptop styles
+@media screen and (max-width: $laptopWidth) {
+  .contact-me {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    .contact-me-message {
+      padding: 50px 50px;
+    }
+  }
+}
+
 @media screen and (max-width: $mobileWidth) {
   .contact-me {
     padding-top: 120px;
+    padding-left: 0;
+    padding-right: 0;
     min-height: 90vh;
     .contact-me-message {
       padding: 0;

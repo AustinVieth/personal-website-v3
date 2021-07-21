@@ -60,8 +60,18 @@
   }
 }
 
+@media screen and (max-width: $laptopWidth) {
+  .work {
+    padding: 100px;
+    .work-selector-item {
+      font-size: 1rem;
+    }
+  }
+}
+
 @media screen and (max-width: $mobileWidth) {
   .work {
+    padding: 20px;
     padding-top: 120px;
     margin-top: 0;
     .work-container {

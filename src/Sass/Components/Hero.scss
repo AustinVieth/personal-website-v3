@@ -43,6 +43,21 @@
   }
 }
 
+//laptop Styling
+@media screen and (max-width: $laptopWidth) {
+  .hero {
+    .name {
+      font-size: 3.5rem;
+    }
+    .title {
+      font-size: 2.5rem;
+    }
+    .hero-info {
+      font-size: 1.5rem;
+    }
+  }
+}
+
 //mobile styles
 @media screen and (max-width: $mobileWidth) {
   .hero {
