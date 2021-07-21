@@ -11,7 +11,14 @@ const NavBar = (props) => {
     return items.map((item, index) => {
       return (
         <li key={index} className="nav-bar-item">
-          <a href={`/#${item}`}>{item}</a>
+          <a
+            href={`/#${item}`}
+            onClick={() => {
+              isMobile && setNavOpen(false);
+            }}
+          >
+            {item}
+          </a>
         </li>
       );
     });
@@ -31,7 +38,7 @@ const NavBar = (props) => {
           download="Austin Vieth Resume"
         >
           Resume
-        </a>{" "}
+        </a>
       </div>
     );
   };
