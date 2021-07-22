@@ -2,8 +2,12 @@ import React from "react";
 
 const ProjectCard = (props) => {
   const renderTechnologies = () => {
-    return props.technologies.map((item) => {
-      return <span className="technology-item">{item}</span>;
+    return props.technologies.map((item, index) => {
+      return (
+        <span className="technology-item" key={index}>
+          {item}
+        </span>
+      );
     });
   };
   return (
@@ -15,7 +19,7 @@ const ProjectCard = (props) => {
           className="git-link"
           href={props.github}
         >
-          <i class="fab fa-github "></i>
+          <i className="fab fa-github "></i>
         </a>
       ) : null}
 

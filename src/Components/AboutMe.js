@@ -14,10 +14,10 @@ const technologies = [
 
 const AboutMe = (props) => {
   const renderTechnologyList = () => {
-    return technologies.map((item) => {
+    return technologies.map((item, index) => {
       return (
-        <li className="technology-item">
-          <span class="material-icons bullet-point">chevron_right</span>
+        <li className="technology-item" key={index}>
+          <span className="material-icons bullet-point">chevron_right</span>
           <span>{item}</span>
         </li>
       );

@@ -20,7 +20,7 @@ const ContactMe = (props) => {
         <ul className="information-list">
           <li className="information-item">
             <a href="mailto:ozwaldvieth@gmail.com" className="icon-link">
-              <i class="far fa-envelope"></i>
+              <i className="far fa-envelope"></i>
             </a>
             <span>ozwaldvieth@gmail.com</span>
           </li>
@@ -31,7 +31,7 @@ const ContactMe = (props) => {
               rel="noreferrer"
               className="icon-link"
             >
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/austin-vieth-602759171/"
@@ -48,7 +48,7 @@ const ContactMe = (props) => {
               rel="noreferrer"
               className="icon-link"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
             <a
               href="https://github.com/AustinVieth"

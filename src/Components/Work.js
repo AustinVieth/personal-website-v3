@@ -68,7 +68,7 @@ const Work = (props) => {
     return selected.bulletPoints.map((item, index) => {
       return (
         <li className="experience-item" key={index}>
-          <span class="material-icons bullet-point">chevron_right</span>
+          <span className="material-icons bullet-point">chevron_right</span>
           <span>{item}</span>
         </li>
       );
@@ -115,14 +115,14 @@ const Work = (props) => {
   {/* Information && Bullet Points */}
   <ul className="experience-list">
     <li className="experience-item">
-      <span class="material-icons bullet-point">chevron_right</span>
+      <span className="material-icons bullet-point">chevron_right</span>
       <span>
         Using a MERN Stack (MongoDB, Express, React, Node) created 2 web apps
         that changed the way the company receives and manipulates data
       </span>
     </li>
     <li className="experience-item">
-      <span class="material-icons bullet-point">chevron_right</span>
+      <span className="material-icons bullet-point">chevron_right</span>
       <span>
         Implemented and maintained a 3rd party API that allowed users to enter
         in information in our system and automatically have it populate the
@@ -130,7 +130,7 @@ const Work = (props) => {
       </span>
     </li>
     <li className="experience-item">
-      <span class="material-icons bullet-point">chevron_right</span>
+      <span className="material-icons bullet-point">chevron_right</span>
       <span>
         Created a custom quote engine for the sales team using Node.js that
         allowed for quick and accurate quotes for the end user

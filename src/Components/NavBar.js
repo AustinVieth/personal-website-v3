@@ -10,7 +10,11 @@ const NavBar = (props) => {
     if (!items) return;
     return items.map((item, index) => {
       return (
-        <li key={index} className="nav-bar-item">
+        <li
+          key={index}
+          className="nav-bar-item"
+          style={{ "--animationOrder": index + 1 }}
+        >
           <a
             href={`/#${item}`}
             onClick={() => {
@@ -48,7 +52,7 @@ const NavBar = (props) => {
       <div className="nav-bar-container">
         {isMobile && (
           <span
-            class="material-icons menu-icon"
+            className="material-icons menu-icon"
             onClick={() => setNavOpen(!navOpen)}
           >
             {navOpen ? "close" : "menu"}
@@ -63,7 +67,7 @@ const NavBar = (props) => {
               {renderListItems(props.items)}
             </ul>
             <a
-              className="secondary-btn"
+              className="secondary-btn resume-btn"
               href="Resume_v2_FullStack_Austin_Vieth.pdf"
               download="Austin Vieth Resume"
             >
