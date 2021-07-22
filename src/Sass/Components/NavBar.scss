@@ -67,6 +67,8 @@
     }
     .nav-bar-item {
       padding: 30px 50px;
+      animation: slide-in-right 0.4s ease-in-out
+        calc(var(--animationOrder) * 30ms + 70ms) forwards;
     }
 
     .close-btn-container {
@@ -92,6 +94,11 @@
       z-index: 2;
       padding-bottom: 40px;
       box-sizing: border-box;
+      animation: slide-in-right 0.4s ease-in-out 0s forwards;
     }
+  }
+
+  .resume-btn {
+    animation: slide-in-right 0.4s ease-in-out 0.4s forwards;
   }
 }

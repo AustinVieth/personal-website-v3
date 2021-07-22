@@ -37,7 +37,7 @@ const NavBar = (props) => {
       <div className="mobile-menu">
         <ul className="nav-bar-item-list">{renderListItems(items)}</ul>
         <a
-          className="secondary-btn"
+          className="secondary-btn resume-btn"
           href="Resume_v2_FullStack_Austin_Vieth.pdf"
           download="Austin Vieth Resume"
         >
