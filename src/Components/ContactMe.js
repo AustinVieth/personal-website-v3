@@ -8,7 +8,7 @@ const ContactMe = (props) => {
       <div className="contact-me-message">
         <span>
           I'm currently open to opportunities, please reach out via email or get
-          in touch with me via linked in. If you have any questions, or you need
+          in touch with me via LinkedIn. If you have any questions, or you need
           help with a project don't hesitate to ask!
         </span>
       </div>

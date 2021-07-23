@@ -34,9 +34,9 @@ const AboutMe = (props) => {
             California. I became interested in software in 2014 when I dabbled
             in game development and after a long hiatus I dove deep in 2018 with
             Javascript and creating apps. Once I experienced good UX it became
-            my passion, creating experiences that people enjoy is something that
-            matters to me, because even if you have the best idea in the world
-            if someone doesn't know how to use it, it's all for naught.
+            my passion. Creating experiences that people enjoy is something that
+            matters to me, because even if you have the best idea in the world,
+            it's all for naught.
           </p>
           <p>
             While I make games in my freetime, creating web apps from front to
@@ -45,7 +45,7 @@ const AboutMe = (props) => {
             manipulate that data. I typically use Javascript for the backend but
             C++ is my favorite language. I'm most experienced in Javascript but
             the power that comes from memory management and the flexibility of
-            C++ is undeniably Great.
+            C++ is undeniably great.
           </p>
         </div>
 
