@@ -14,11 +14,37 @@ class ExperienceItem {
 }
 
 let experienceItemsDefault = [
-  new ExperienceItem(0, "Payality", "Software Engineer", "Nov 2019 - Present", [
-    "Using a MERN Stack (MongoDB, Express, React, Node) created 2 web apps that changed the way the company receives and manipulates data",
-    "Implemented and maintained a 3rd party API that allowed users to enter in information in our system and automatically have it populate the information in other systems.",
-    "Created a custom quote engine for the sales team using Node.js that allowed for quick and accurate quotes for the end user",
-  ]),
+  new ExperienceItem(
+    4,
+    "Zendesk",
+    "Senior Software Engineer",
+    "Oct. 2021 - Present",
+    [
+      "Created and executed on design documents for multiple projects including visual and business logic changes to increase visual fidelity or logic speed.",
+      "Ensured that good ",
+    ]
+  ),
+  new ExperienceItem(
+    3,
+    "Etna Interactive",
+    "Web Developer",
+    "Aug. 2021 - Oct. 2021",
+    [
+      "Worked with multiple technologies to create web experiences for Aesthetic Surgeons",
+      "Created custom features that mimic a SPA using only vanilla javascript",
+    ]
+  ),
+  new ExperienceItem(
+    0,
+    "Payality",
+    "Software Engineer",
+    "Nov. 2019 - Aug. 2021",
+    [
+      "Using a MERN Stack (MongoDB, Express, React, Node) created 2 web apps that changed the way the company receives and manipulates data",
+      "Implemented and maintained a 3rd party API that allowed users to enter in information in our system and automatically have it populate the information in other systems.",
+      "Created a custom quote engine for the sales team using Node.js that allowed for quick and accurate quotes for the end user",
+    ]
+  ),
   new ExperienceItem(
     1,
     "University Of Illinois, Springfield",

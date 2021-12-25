@@ -24,7 +24,7 @@ const Hero = (props) => {
         <p className="hero-info">
           I'm a California-based software engineer who specializes in
           <span className="highlight"> fullstack development</span> with a
-          passion for building games. I'm currently an engineer at Payality
+          passion for building games. I'm currently an engineer at Zendesk
           focusing on creating simplified experiences.
         </p>
         <div className="contact-me-container">
