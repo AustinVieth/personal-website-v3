@@ -20,8 +20,8 @@ let experienceItemsDefault = [
     "Senior Software Engineer",
     "Oct. 2021 - Present",
     [
-      "Created and executed on design documents for multiple projects including visual and business logic changes to increase visual fidelity or logic speed.",
-      "Ensured that good ",
+      "Created and executed on design documents for multiple projects including visual and business logic changes to increase visual fidelity or business logic execution speed.",
+      "Designed and implemented Datadog metrics to track product quality and troubleshoot issues before they became apparent to the customer",
     ]
   ),
   new ExperienceItem(
@@ -30,7 +30,7 @@ let experienceItemsDefault = [
     "Web Developer",
     "Aug. 2021 - Oct. 2021",
     [
-      "Worked with multiple technologies to create web experiences for Aesthetic Surgeons",
+      "Worked with multiple technologies including HTML, CSS, JS, ColdFusion, and Vue to create web experiences for Aesthetic Surgeons",
       "Created custom features that mimic a SPA using only vanilla javascript",
     ]
   ),
@@ -74,12 +74,12 @@ const Work = (props) => {
   };
 
   const renderExperienceList = () => {
-    return experienceItems.map((item) => {
+    return experienceItems.map((item, index) => {
       return (
         <li
           onClick={handleSelection}
           key={item.id}
-          value={item.id}
+          value={index}
           className={`work-selector-item ${
             selected.id === item.id ? "selected" : ""
           }`}
