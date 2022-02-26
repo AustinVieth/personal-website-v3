@@ -20,6 +20,7 @@ let experienceItemsDefault = [
     "Senior Software Engineer",
     "Oct. 2021 - Present",
     [
+      "Completed a React migration project and improved overall code quality through various refactors",
       "Created and executed on design documents for multiple projects including visual and business logic changes to increase visual fidelity or business logic execution speed.",
       "Designed and implemented Datadog metrics to track product quality and troubleshoot issues before they became apparent to the customer",
     ]

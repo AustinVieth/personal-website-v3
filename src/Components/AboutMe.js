@@ -5,8 +5,10 @@ import SectionHeader from "./SectionHeader";
 const technologies = [
   "ReactJS",
   "JavaScript",
+  "TypeScript",
   "NodeJS",
   "CSS",
+  "GraphQL",
   "C++",
   "Unreal Engine 4",
   "MongoDB",
