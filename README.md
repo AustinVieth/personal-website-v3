@@ -7,6 +7,10 @@ https://www.austinvieth.com/
 
 ## Scripts
 
+### `npm install` or `npm i`
+
+This installs the dependencies required to run the app!
+
 ### `npm start`
 
 Runs the app in the development mode.\
