@@ -22,7 +22,7 @@ const Hero = (props) => {
 
       <div className="info-container">
         <p className="hero-info">
-          I'm a California-based software engineer who specializes in
+          I'm a Washington-based software engineer who specializes in
           <span className="highlight"> game development</span> with a passion
           for performance. I'm currently an engineer at Zendesk focusing on
           creating simplified experiences.

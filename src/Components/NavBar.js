@@ -3,8 +3,8 @@ import { useMediaQuery } from "react-responsive";
 
 const NavBar = (props) => {
   const isMobile = useMediaQuery({ query: "(max-width: 480px)" });
-
   const [navOpen, setNavOpen] = useState(false);
+  const resumeFileName = "resume.pdf";
 
   const renderListItems = (items) => {
     if (!items) return;
@@ -38,7 +38,7 @@ const NavBar = (props) => {
         <ul className="nav-bar-item-list">{renderListItems(items)}</ul>
         <a
           className="secondary-btn resume-btn"
-          href="Resume_v2_FullStack_Austin_Vieth.pdf"
+          href={resumeFileName}
           download="Austin Vieth Resume"
         >
           Resume
@@ -68,7 +68,7 @@ const NavBar = (props) => {
             </ul>
             <a
               className="secondary-btn resume-btn"
-              href="Resume_v2_FullStack_Austin_Vieth.pdf"
+              href={resumeFileName}
               download="Austin Vieth Resume"
             >
               Resume
