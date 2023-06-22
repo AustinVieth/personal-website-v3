@@ -3,15 +3,15 @@ import SectionHeader from "./SectionHeader";
 //${process.env.PUBLIC_URL} + "/Self.png"
 
 const technologies = [
+  "Unreal Engine 5",
   "ReactJS",
-  "JavaScript",
-  "TypeScript",
-  "NodeJS",
-  "CSS",
-  "GraphQL",
+  "Godot",
+  "Ruby",
   "C++",
-  "Unreal Engine 4",
-  "MongoDB",
+  "Typescript",
+  "Kubernetes",
+  "GraphQL",
+  "DataDog",
 ];
 
 const AboutMe = (props) => {
@@ -32,22 +32,26 @@ const AboutMe = (props) => {
         <div className="about-me-text">
           <SectionHeader label="About Me" />
           <p>
-            Hello, I'm a 26 year old software engineer living in central coast
-            California. I became interested in software in 2014 when I dabbled
-            in game development and after a long hiatus I dove deep in 2018 with
-            Javascript and creating apps. Once I experienced good UX it became
-            my passion. Creating experiences that people enjoy is something that
-            matters to me, because even if you have the best idea in the world,
-            it's all for naught.
+            I'm a passionate game developer based in the Pacific Northwest (WA)
+            with a background in software engineering. From an early age, I
+            immersed myself in the world of software development, even creating
+            private servers for my favorite games. Gaming has always been my
+            passion, and I've nurtured a deep fascination for the industry.
           </p>
           <p>
-            While I make games in my freetime, creating web apps from front to
-            back is what I do today. I enjoy the entire process from creating
-            the user interface to setting up a database and creating an API to
-            manipulate that data. I typically use Javascript for the backend but
-            C++ is my favorite language. I'm most experienced in Javascript but
-            the power that comes from memory management and the flexibility of
-            C++ is undeniably great.
+            After pursuing a biology degree at Cal Poly, I realized that game
+            development was my true calling. In 2014, I ventured into web
+            development and computer science, acquiring skills through
+            self-guided learning and professional experiences. I furthered my
+            education by obtaining a bachelor's degree in Computer Science,
+            while simultaneously working as a full-time software engineer.
+          </p>
+          <p>
+            Alongside my professional career, I explored game development as a
+            hobby. Over the years, I dabbled in various aspects like drawing, 3D
+            modeling, and animation, continuously learning and expanding my
+            skill set. I'm drawn to the theory of game design and seek
+            inspiration from books like "The Art of Game Design" and "Level Up."
           </p>
         </div>
 

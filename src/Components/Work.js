@@ -20,9 +20,11 @@ let experienceItemsDefault = [
     "Senior Software Engineer",
     "Oct. 2021 - Present",
     [
-      "Completed a React migration project and improved overall code quality through various refactors",
-      "Created and executed on design documents for multiple projects including visual and business logic changes to increase visual fidelity or business logic execution speed.",
-      "Designed and implemented Datadog metrics to track product quality and troubleshoot issues before they became apparent to the customer",
+      "Developed and maintained a high-performance Ruby microservice that efficiently processed millions of Kafka events per hour.",
+      "Successfully managed and optimized a large-scale database, handling millions of entries to ensure data integrity and system performance.",
+      "Utilized Kubernetes to proactively monitor and manage clusters in real-time, effectively anticipating and resolving issues during critical incidents.",
+      "Led the transition from a REST service to leveraging GraphQL, resulting in a significant reduction in CPU cycles and improved overall performance.",
+      "Took ownership of seamless migrations from Ember to React for multiple front-end features, enhancing user experience and code maintainability.",
     ]
   ),
   new ExperienceItem(
@@ -41,9 +43,10 @@ let experienceItemsDefault = [
     "Software Engineer",
     "Nov. 2019 - Aug. 2021",
     [
-      "Using a MERN Stack (MongoDB, Express, React, Node) created 2 web apps that changed the way the company receives and manipulates data",
-      "Implemented and maintained a 3rd party API that allowed users to enter in information in our system and automatically have it populate the information in other systems.",
-      "Created a custom quote engine for the sales team using Node.js that allowed for quick and accurate quotes for the end user",
+      "Utilized the MERN Stack (MongoDB, Express, React, Node) to independently develop and deploy a project from start to finish on Azure.",
+      "Successfully set up and managed a cloud-based MongoDB database, ensuring data availability and scalability.",
+      "Implemented a robust RESTful API for the MongoDB database using Node.js, enabling efficient data retrieval and manipulation.",
+      "Developed a responsive, mobile-first application using React, Redux, and SASS, delivering a visually appealing and user-friendly interface.",
     ]
   ),
   new ExperienceItem(
@@ -69,7 +72,6 @@ const Work = (props) => {
   //I'm never needing to set experience items so I don't include the set function
   const [experienceItems] = useState(experienceItemsDefault);
   const [selected, setSelected] = useState(experienceItems[0]);
-
   const handleSelection = (e) => {
     setSelected(experienceItems[e.currentTarget.value]);
   };

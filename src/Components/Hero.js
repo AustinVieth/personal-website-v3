@@ -22,10 +22,10 @@ const Hero = (props) => {
 
       <div className="info-container">
         <p className="hero-info">
-          I'm a California-based software engineer who specializes in
-          <span className="highlight"> fullstack development</span> with a
-          passion for building games. I'm currently an engineer at Zendesk
-          focusing on creating simplified experiences.
+          I'm a Washington-based software engineer who specializes in
+          <span className="highlight"> game development</span> with a passion
+          for performance. I'm currently an engineer at Zendesk focusing on
+          creating simplified experiences.
         </p>
         <div className="contact-me-container">
           <a className="secondary-btn" href="mailto:ozwaldvieth@gmail.com">
