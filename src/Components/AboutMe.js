@@ -8,6 +8,7 @@ const technologies = [
   "Godot",
   "Ruby",
   "C++",
+  "Git",
   "Typescript",
   "Kubernetes",
   "GraphQL",
