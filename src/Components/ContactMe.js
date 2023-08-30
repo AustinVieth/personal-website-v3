@@ -43,7 +43,7 @@ const ContactMe = (props) => {
           </li>
           <li className="information-item">
             <a
-              href="https://github.com/AustinVieth"
+              href="https://github.com/aviethZD"
               target="_blank"
               rel="noreferrer"
               className="icon-link"
@@ -51,7 +51,7 @@ const ContactMe = (props) => {
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://github.com/AustinVieth"
+              href="https://github.com/aviethZD"
               target="_blank"
               rel="noreferrer"
             >
